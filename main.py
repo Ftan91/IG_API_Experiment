@@ -3,6 +3,10 @@ import requests
 import facebook
 import os
 
+# make sure you have the 3 variables below set as env variable
+# set within .bash_profile OR .zshenv within your $HOME directory
+# to refresh use source ~/.bash_profile OR source ~/.zshenv
+# to check, printenv in your terminal
 short_lived_token = os.environ['IG_API_SHORT_TOKEN']
 app_id = os.environ['APP_ID']
 app_secret = os.environ['APP_SECRET']
